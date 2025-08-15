@@ -325,7 +325,7 @@ module Xcodeproj
         #
         # @note   Defaults to a comment string.
         #
-        attribute :shell_script, String, "# Type a script or drag a script file from your workspace to insert its path.\n"
+        attribute :shell_script, String, Array, "# Type a script or drag a script file from your workspace to insert its path.\n"
 
         # @return [String] whether or not the ENV variables should be shown in
         #         the build log.
